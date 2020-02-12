@@ -1,0 +1,28 @@
+{
+  "name": "nuevogit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist",
+    "build": "parcel build src/index.html",
+    "dev": "npm-run-all minify:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aletf7/nuevogit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aletf7/nuevogit/issues"
+  },
+  "homepage": "https://github.com/Aletf7/nuevogit#readme"
+}
